@@ -1,8 +1,8 @@
 # SupervisedMachineLearning
 
-Analysis of Machine Learning Models
+# Analysis of Machine Learning Models
 
-Summary
+## Summary
 In Module 17, we were given sample sets of code to walk thru each module and observe the machine learning behavior. These analyses were based on supervised data. We had a specific dataset that was either large or small, and wanted to determine an outcome based off the provided info. 
 For the challenge, we had the opportunity to evaluate the following machine learning modules and determine best model for looking at credit risks. Below is a table of the models and the results. 
 Tests	Balanced Accuracy	Pre	Rec	Spe	F1	Geo	iba
@@ -30,6 +30,6 @@ Instead of having a single, complex tree like the ones created by decision trees
 Easy Ensemble
 Ensemble learning builds on the idea that two is better than one. A single tree may be prone to errors, but many of them can be combined to form a stronger model. A random forest model, for example, combines many decision trees into a forest of trees. This model does not appear to have enough high risk credit data to build a model that is useful.
 
-Conclusion
+## Conclusion
 I would not use any of the aforementioned samples. Although each of the models serve their own purpose and attempt to deal with the data differences in a way that will lead us to a decision, it seems that we need a better balance of data. 
 However, the random sampling and SMOTE appear to factor in some of deficiencies of our original dataset and balances out the information a little better, making our model more realistic. It allowed us to see the more of the high risk information compared to the rest of the data. These models come the closest to the type of information we’d like to work with. 
