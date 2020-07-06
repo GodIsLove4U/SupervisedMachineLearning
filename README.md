@@ -6,8 +6,9 @@
 In Module 17, we were given sample sets of code to walk thru each module and observe the machine learning behavior. These analyses were based on supervised data. We had a specific dataset that was either large or small, and wanted to determine an outcome based off the provided info. 
 For the challenge, we had the opportunity to evaluate the following machine learning modules and determine best model for looking at credit risks. Below is a table of the models and the results. 
 
-Tests	Balanced Accuracy	Pre	Rec	Spe	F1	Geo	iba
-Random oversampling	0.66	0.99	0.58	0.74	0.73	0.66	0.42
+Tests	             | Balanced Accuracy |	Pre |	Rec |	Spe |	F1  |	Geo |	iba |
+-------------------|-------------------|------|-----|-----|-----|-----|-----|
+Random oversampling| 0.66              |	0.99|	0.58|	0.74|	0.73|	0.66|	0.42|
 SMOTE	0.65	0.99	0.68	0.62	0.81	0.65	0.43
 Under sampling	0.55	0.99	0.41	0.68	0.58	0.53	0.27
 Combo	0.55	0.99	0.57	0.72	0.72	0.64	0.4
