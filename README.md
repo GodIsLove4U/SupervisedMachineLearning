@@ -9,11 +9,12 @@ For the challenge, we had the opportunity to evaluate the following machine lear
 Tests	             | Balanced Accuracy |	Pre |	Rec |	Spe |	F1  |	Geo |	iba |
 -------------------|-------------------|------|-----|-----|-----|-----|-----|
 Random oversampling| 0.66              |	0.99|	0.58|	0.74|	0.73|	0.66|	0.42|
-SMOTE	0.65	0.99	0.68	0.62	0.81	0.65	0.43
-Under sampling	0.55	0.99	0.41	0.68	0.58	0.53	0.27
-Combo	0.55	0.99	0.57	0.72	0.72	0.64	0.4
-Random Forest	0.99	0.99	1	 	0.99	 	 
-Easy Ensemble	1	0.99	1	 	0.99	 	 
+SMOTE	             |0.65               | 	0.99|	0.68|	0.62|	0.81|	0.65|	0.43|
+Under sampling	   |0.55               |	0.99|	0.41|	0.68|	0.58|	0.53|	0.27|
+Combo	             |0.55               |	0.99|	0.57|	0.72|	0.72|	0.64|	0.40|
+Random Forest	     |0.99               |  0.99|	1	 	|     | 0.99|	 	  |     |
+Easy Ensemble	     |1                  |	0.99|	1	 	|     | 0.99|	 	  |     |
+
 
 The precision is very good on all these tests. However, a deeper review of the data and information about the classification report reveals important information to factor in for our best model choice. Below is a brief description of the model and whether the model should be used. 
 
