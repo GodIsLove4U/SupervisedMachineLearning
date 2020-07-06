@@ -1,8 +1,6 @@
 # SupervisedMachineLearning
 
-# Analysis of Machine Learning Models
-
-## Summary
+## Analysis & Summary
 In Module 17, we were given sample sets of code to walk thru each module and observe the machine learning behavior. These analyses were based on supervised data. We had a specific dataset that was either large or small, and wanted to determine an outcome based off the provided info. 
 For the challenge, we had the opportunity to evaluate the following machine learning modules and determine best model for looking at credit risks. Below is a table of the models and the results. 
 
